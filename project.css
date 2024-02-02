@@ -462,10 +462,7 @@ li:hover >ul{
     display: flex;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 600px) {
-    .img-wrapper .col{
-        width: 100%;
-    }
+@media screen and (max-width: 992px) {
     .pr-header{
         flex-direction: column;
         text-align: center;
@@ -473,6 +470,11 @@ li:hover >ul{
     .pr-header .h2{
         display: flex;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .img-wrapper .col{
+        width: 100%;
     }
 }
 footer{
